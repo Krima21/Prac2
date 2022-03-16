@@ -36,7 +36,7 @@ if __name__ == "__main__":
     student.display()
     print()
 
-    exam = Exam(2, "Bcd", [10, 20, 30])
+    exam = Exam(2, "Bcd", [20, 40, 60])
     exam.display()
     print()
 
@@ -44,6 +44,6 @@ if __name__ == "__main__":
     result.display()
     print()
 
-    result = Result(4, "Def", [70, 80, 90, 100])
+    result = Result(4, "Def", [60, 80, 70, 100])
     result.display()
     print()
